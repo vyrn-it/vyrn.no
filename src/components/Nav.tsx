@@ -14,9 +14,9 @@ export default function Nav() {
 				</div>
 
 				<nav class="hidden md:flex items-center space-x-8">
-					<a href="#" class="text-gray-300 hover:text-emerald-400 transition duration-200">Hjem</a>
-					<a href="#" class="text-gray-300 hover:text-emerald-400 transition duration-200">Prosjekter</a>
-					<a href="#" class="text-gray-300 hover:text-emerald-400 transition duration-200">Om oss</a>
+					<a href="/" class="text-gray-300 hover:text-emerald-400 transition duration-200">Hjem</a>
+					<a href="/projects" class="text-gray-300 hover:text-emerald-400 transition duration-200">Prosjekter</a>
+					<a href="/about" class="text-gray-300 hover:text-emerald-400 transition duration-200">Om oss</a>
 					<button class="px-4 py-2 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-md hover:opacity-90 transition duration-200">
 						Kontakt
 					</button>
@@ -35,9 +35,9 @@ export default function Nav() {
 
 			<Show when={isMenuOpen()}>
 				<nav class="md:hidden py-4 px-4 bg-gray-800 flex flex-col space-y-4">
-					<a href="#" class="text-gray-300 hover:text-emerald-400 transition duration-200">Hjem</a>
-					<a href="#" class="text-gray-300 hover:text-emerald-400 transition duration-200">Prosjekter</a>
-					<a href="#" class="text-gray-300 hover:text-emerald-400 transition duration-200">Om oss</a>
+					<a href="/" class="text-gray-300 hover:text-emerald-400 transition duration-200">Hjem</a>
+					<a href="/projects" class="text-gray-300 hover:text-emerald-400 transition duration-200">Prosjekter</a>
+					<a href="/about" class="text-gray-300 hover:text-emerald-400 transition duration-200">Om oss</a>
 					<button class="px-4 py-2 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-md hover:opacity-90 transition duration-200 w-full">
 						Kontakt
 					</button>
