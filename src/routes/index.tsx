@@ -30,7 +30,7 @@ export default function Home() {
 			<section class="bg-gray-800/50 py-20">
 				<div class="container mx-auto px-4">
 					<h2 class="text-3xl font-bold text-center mb-12">
-						Utvalgte <span class="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Prosjekter</span>
+						<span class="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Prosjekter</span>
 					</h2>
 
 					<div class="grid md:grid-cols-3 gap-8">
