@@ -10,9 +10,11 @@ export default function App() {
 		<Router
 			root={props => (
 				<>
-					<div class="min-h-screen bg-gray-900 text-gray-100">
+					<div class="min-h-screen flex flex-col bg-gray-900 text-gray-100">
 						<Nav />
-						<Suspense>{props.children}</Suspense>
+						<div class="grow">
+							<Suspense>{props.children}</Suspense>
+						</div>
 						<Footer />
 					</div>
 				</>
