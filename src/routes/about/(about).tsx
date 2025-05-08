@@ -1,3 +1,4 @@
+import { createResource } from "solid-js";
 
 export default function About() {
 	return (
